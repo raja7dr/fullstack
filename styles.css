@@ -1,0 +1,36 @@
+h1{
+    color: chocolate;
+}
+div{
+    background-color: darkolivegreen;
+}
+#academics{
+    color: green;
+    text-decoration: none;
+    padding-left: 40px;
+    background-color: darkolivegreen;
+}
+#sports{
+    color: green;
+    text-decoration: none;
+    padding-left: 40px;
+    background-color: darkolivegreen;
+}
+#results{
+    color: green;
+    text-decoration: none;
+    padding-left: 40px;
+    background-color: darkolivegreen;
+}
+#Library{
+    color: green;
+    text-decoration: none;
+    padding-left: 40px;
+    background-color: darkolivegreen;
+}
+#ss{
+    padding-left: 40px;
+}
+#button{
+    padding-left: 40px;
+}
