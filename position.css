@@ -1,0 +1,33 @@
+div{
+    background-color: red;
+
+    display: inline;
+}
+#one{
+    background-color: yellow;
+    position: static;
+}
+#two{
+    background-color: orangered;
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+#three{
+    background-color: blue;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+
+}
+#four{
+    background-color: red;
+    position: fixed;
+    bottom: 50px;
+
+}
+#five{
+    background-color: green;
+    position: sticky;
+    top: 50px;
+}
