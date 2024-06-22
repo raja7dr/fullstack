@@ -1,0 +1,17 @@
+div{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    transition: all 2s;
+
+}
+div:hover{
+    width: 250px;
+    height: 500px;
+    background-color: green;
+    color: cadetblue;
+    transition: all;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-outs;
+    transition-delay: 2s; */
+}

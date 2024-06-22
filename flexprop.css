@@ -1,0 +1,27 @@
+#cont {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    /* flex-direction: row-reverse; */
+    /* align-items: end; */
+    justify-content: space-evenly;
+    border: 2px saddlebrown;
+}
+div{
+    width: 100px;
+    height: 100px;
+    color:white;
+
+}
+#one{
+    background-color: yellow;
+}
+#two{
+    background-color: rgb(31, 58, 133);
+}
+#three{
+    background-color: rgb(212, 51, 105);
+}
+#four{
+    background-color: rgb(228, 25, 25);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div{
+            width:200px;
+            height: 300px;
+            background-color: blue;
+        }
+        @media (min-width:100px) and (max-width=250px)
+        {
+        div{
+            width: 100px;
+            background-color: blueviolet;
+        }    
+        }
+    </style>
+    <div> </div>
+<input type="number" id="one">
+<input type="number" id="two">
+<button id="calc" onclick="myfun()">calculate</button>
+    
+</body>
+<script>
+    function myfun()
+    {
+    let a=document.getElementById["one"].value;
+    let b=document.getElementById["two"].value;
+    let c=a+b
+    document.write(c)
+    }
+
+
+
+</script>
+</html>
