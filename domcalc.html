@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <style>
+    <!-- <style>
         div{
             width:200px;
             height: 300px;
@@ -19,23 +19,47 @@
             background-color: blueviolet;
         }    
         }
-    </style>
-    <div> </div>
+    </style> -->
+    <div> 
 <input type="number" id="one">
 <input type="number" id="two">
-<button id="calc" onclick="myfun()">calculate</button>
+<button id="add" onclick="add()">add</button>
+<button id="sub" onclick="sub()">sub</button>
+<button id="multi" onclick="multi()">multi</button>
+<button id="div" onclick="div()">div</button>
+</div>
     
 </body>
 <script>
-    function myfun()
+    function add()
     {
-    let a=document.getElementById["one"].value;
-    let b=document.getElementById["two"].value;
-    let c=a+b
+    var a=document.getElementById("one").value;
+    var b=document.getElementById("two").value;
+    a=Number(a);
+    b=Number(b);
+    var c=a+b
     document.write(c)
     }
-
-
-
+    function sub()
+    {
+    var a=document.getElementById("one").value;
+    var b=document.getElementById("two").value;
+    var c=a-b
+    document.write(c)
+    }
+    function multi()
+    {
+    var a=document.getElementById("one").value;
+    var b=document.getElementById("two").value;
+    var c=a*b
+    document.write(c)
+    }
+    function div()
+    {
+    var a=document.getElementById("one").value;
+    var b=document.getElementById("two").value;
+    var c=a/b
+    document.write(c)
+    }
 </script>
 </html>

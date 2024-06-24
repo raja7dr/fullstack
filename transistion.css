@@ -13,6 +13,6 @@ div:hover{
     color: white;
     font-family: cursive;
     transform: scaleY(2);
-    /* transform: scaleX(2); */
+    transform: scaleX(2);
 
 }
